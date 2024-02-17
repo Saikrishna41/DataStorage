@@ -21,7 +21,8 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
-
+chmod +x gradlew
+git update-index --chmod=+x ./gradlew
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
@@ -184,5 +185,4 @@ eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$A
 
 exec "$JAVACMD" "$@"
 
-chmod +x gradlew
 
